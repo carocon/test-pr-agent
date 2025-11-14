@@ -2,3 +2,5 @@
 This repo was created in order to test a pr-agent
 
 This is a dummy modification.
+
+This is another dummy modification.
