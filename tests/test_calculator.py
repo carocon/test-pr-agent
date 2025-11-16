@@ -20,6 +20,7 @@ class TestCalculator:
         assert self.calc.multiply(2, 3) == 6
         assert self.calc.multiply(-2, 3) == -6
         assert self.calc.multiply(0, 5) == 0
+        assert self.calc.multiply(4, 0) == 0
 
     def test_divide(self):
         assert self.calc.divide(6, 3) == 2
