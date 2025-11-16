@@ -10,6 +10,7 @@ class TestCalculator:
         assert self.calc.add(2, 3) == 5
         assert self.calc.add(-1, 1) == 0
         assert self.calc.add(0, 0) == 0
+        assert self.calc.subtract(5, 0) == 0
 
     def test_subtract(self):
         assert self.calc.subtract(5, 3) == 2
